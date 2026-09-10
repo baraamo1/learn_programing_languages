@@ -75,3 +75,13 @@ tr{
 td{
     padding: 5px;
 }
+form{
+    border:solid;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}#check{
+    display: flex;
+    flex-direction: column;
+    
+}
