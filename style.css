@@ -29,6 +29,7 @@ body{
     border-radius: 20px;
     background-color:bisque ;
     width: fit-content;
+    margin: 10px;
 }
 .c_name{
     text-align: center;
@@ -49,4 +50,28 @@ body{
 .space{
     display: flex;
     justify-content: space-around;
+}
+#learn_path{
+    text-align: center;
+}
+#ppp{
+    border: solid;
+    margin :20px;
+    border-radius: 20px;
+    background-color: #fcb866;
+}
+table{
+    border: solid;
+    margin: auto;
+}
+td{
+    border: solid;
+    margin: 5x;
+}
+tr{
+        border: solid;
+   margin: 5px;
+}
+td{
+    padding: 5px;
 }
