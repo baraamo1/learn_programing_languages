@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+}
+#main_name{
+    text-align: center ;
+}
+#ww{
+   
+ background-color: #fcb866;
+ padding: 10px;
+ border-radius: 20px;
+ border: solid ;
+ box-shadow: 4px 4px;
+}
+#why{
+   text-align: center;
+}
+#courses{
+    padding: 20px;
+    border: solid;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px;
+    background-color: #ffffff;
+}
+.spp{
+    border: solid;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:bisque ;
+    width: fit-content;
+}
+.c_name{
+    text-align: center;
+}
+.c_imgs{
+    border: solid;
+    border-radius: 20px;
+    float: right;
+    width: 40%;
+}
+.c_video{
+      border: solid;
+    border-radius: 20px;
+    float: left; 
+    width: 40%;
+ 
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+}
