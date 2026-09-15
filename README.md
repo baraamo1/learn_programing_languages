@@ -1,6 +1,15 @@
 # learn programing languages
 ## It is a website that have many resources that make you learn up to 10 programing languages
-
+## what is this website doing 
+- this website contain links for resorces that makes you learn programing languages like
+  - C
+  - C#
+  - C++
+  - JAVA
+  - PITHON
+- it has a plane for how to learn programing
+- it has a points of useful of programing
+- it contain a table that Compares between the languages 
 ## used languages
 - HTML
 - CSS
