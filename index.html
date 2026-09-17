@@ -188,52 +188,53 @@ and applications where high performance is important</p>
 </table>
 
 <h1 id="form">
-
+ Feedback
 </h1>
-<p id="f_form"></p>
-<form>
+<p id="f_form">please fill this form</p>
+<form action="https://formspree.io/f/xyezywea"
+method="post">
     <label>Username</label>
-    <input type="text" required placeholder="Username">
-        <label>Password</label>
-    <input type="text" required placeholder="Password">
+    <input type="text" required placeholder="Username" name="name">
+        <label>Rate the website from 1 - 10</label>
+    <input type="number" required placeholder="rate" min="1" max="10" name="rate">
     <br>
     <br>
     <div>
     <label>Male or Female</label>
     <br>
     <label>Male</label>
-    <input type="radio" name="mf" >
+    <input type="radio" name="mf" value="male">
     <label>Female</label>
-    <input type="radio" name="mf">
+    <input type="radio" name="mf" value="femael">
 </div>
 <br>
 <br>
     <label>Why do you want to learn program ?</label>
-    <input type="text" required>
+    <input type="text" required name="why">
     <label>Email</label>
-    <input type="text" required placeholder="abcd@gmail.com">
+    <input type="email" required placeholder="abcd@gmail.com" name="email">
     <br>
 <br>
     <label>Which program languages do you need us to add it ?</label>
     <br>
 <br>
     <div id="check">
-    <lable>python</lable>
-    <input type="checkbox">
-    <lable>c</lable>
-    <input type="checkbox">
-        <lable>java</lable>
-    <input type="checkbox">    
-        <lable>c++</lable>
-    <input type="checkbox">
-        <lable>c#</lable>
-    <input type="checkbox">
+    <label>python</label>
+    <input type="checkbox" name="lan" value="pithon">
+    <label>c</label>
+    <input type="checkbox" name="lan" value="c">
+        <label>java</label>
+    <input type="checkbox" name="lan" value="java">    
+        <label>c++</label>
+    <input type="checkbox" name="lan" value="c++">
+        <label>c#</label>
+    <input type="checkbox" name="lan" value="c#">
     </div>
     <br>
 <br>
 <div id="ffff">
-    <input class="form-but" type="submit">
-    <input class="form-but" type="reset">
+    <input class="form-but" type="submit" value="submit">
+    <input class="form-but" type="reset" name="rest">
     </div>
 </form>
 <br>
