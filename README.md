@@ -1,5 +1,5 @@
 # learn programing languages
-## It is a website that have many resources that make you learn up to 10 programing languages
+## It is a website that have many resources that make you learn up to 5 programing languages
 ## what is this website doing 
 - this website contain links for resorces that makes you learn programing languages like
   - C
